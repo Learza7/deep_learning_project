@@ -3,7 +3,7 @@
 ### Constituer la base de données avant le 28/03 23h59
 
 1. Trouver des images. (équilibrer les classes).
-2.  ́Eliminez les doublons.
+2. Eliminez les doublons.
 3. Annotez les images (associez une classe `a chaque image).
 4. Répartissez vos données en ensembles d’entrainement, de validation
 et de test.
