@@ -4,7 +4,7 @@
 
 1. Trouver des images. (équilibrer les classes).
 2. Eliminez les doublons.
-3. Annotez les images (associez une classe `a chaque image).
+3. Annotez les images (associez une classe à chaque image).
 4. Répartissez vos données en ensembles d’entrainement, de validation
 et de test.
 5. Chargez-les sur un dépot pour y accéder facilement depuis Google Colab.
