@@ -1,6 +1,6 @@
 # deep_learning_project : Emotion classifier
 
-### Constituer la base de données avant le 28/03 23h59
+### Constituer la base de données et poster un rapport avant le 28/03 23h59
 
 1. Trouver des images. (équilibrer les classes).
 2. Eliminez les doublons.
