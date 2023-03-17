@@ -1,7 +1,4 @@
-# deep_learning_project
-
-## Classification des émotions
-
+# deep_learning_project : Emotion classifier
 
 ### Constituer la base de données avant le 28/03 23h59
 
