@@ -36,7 +36,7 @@ def recupereAdresses():
     RawFolderAdress = arow.get()
     joieFolderAdress = creer_rep('joie')
     tristeFolderAdress = creer_rep('triste')
-    degoutFolderAdress = creer_rep('degout')
+    degoutFolderAdress = creer_rep('surprise')
     colereFolderAdress = creer_rep('colere')
     peurFolderAdress = creer_rep('peur')
     if(not (RawFolderAdress and joieFolderAdress and tristeFolderAdress and degoutFolderAdress and colereFolderAdress and peurFolderAdress)):
@@ -142,8 +142,8 @@ def sendTo(dir):
     elif (dir == "T" and displayed_image_index < len(images_names)-1):
         transfert_file_to(tristeFolderAdress,old_path,"Tristesse")
         display_next_image()
-    elif (dir == "D" and displayed_image_index < len(images_names)-1):
-        transfert_file_to(degoutFolderAdress,old_path,"Dégout")
+    elif (dir == "S" and displayed_image_index < len(images_names)-1):
+        transfert_file_to(degoutFolderAdress,old_path,"Surprise")
         display_next_image()
     elif (dir == "C" and displayed_image_index < len(images_names)-1):
         transfert_file_to(colereFolderAdress,old_path,"Colère")
@@ -207,7 +207,7 @@ buttonPannel = PanedWindow(FrameCenter, orient=HORIZONTAL)
 buttonPannel.pack(fill=NONE, pady=2, padx=2)
 buttonPannel.add(Button(buttonPannel, text ='Joie',command= lambda: sendTo("J")))
 buttonPannel.add(Button(buttonPannel, text ='Tristesse',command= lambda: sendTo("T")))
-buttonPannel.add(Button(buttonPannel, text ='Dégout',command= lambda: sendTo("D")))
+buttonPannel.add(Button(buttonPannel, text ='Surprise',command= lambda: sendTo("S")))
 buttonPannel.add(Button(buttonPannel, text ='Colère',command= lambda: sendTo("C")))
 buttonPannel.add(Button(buttonPannel, text ='Peur',command= lambda: sendTo("P")))
 buttonPannel.add(Button(buttonPannel, text ='Ignore',command= lambda: sendTo("ignore")))
