@@ -1,4 +1,4 @@
-Petit programme qui permettant de trier rapidement les images
+Petit programme permettant de trier rapidement les images
 
 Pour le lancer il suffit de faire "python3 TrieurImages.py"
 
