@@ -1,0 +1,23 @@
+Composition du groupe :
+Louis Amoros-Bessède, Rémi Dabrowski, Nathan Barraud et Nathan Gaud et Martin Guidez.
+
+Titre du projet :
+Reconnaissance des émotions humaines en utilisant le deep learning.
+
+Description du sujet choisi :
+Notre projet de reconnaissance des émotions humaines à l'aide de l'apprentissage en profondeur vise à développer un modèle permettant reconnaître cinq émotions différentes : la colère, la peur, la joie, la tristesse et la surprise.
+
+Méthodologie pour acquérir et annoter les données et partitionner les images :
+Nous avons utilisé GoogleImages pour collecter un grand nombre d'images pour les 5 émotions choisies que nous avons annotées manuellement en les plaçant dans des dossiers séparés. Il n'existe pas de règle absolue pour la répartition des données, mais une méthode courante consiste à répartir les données en utilisant la proportion 80-10-10. Cela signifie que 80% des données sont utilisées pour l'ensemble d'entraînement, 10% pour l'ensemble de validation et 10% pour l'ensemble de test. Nous avons ensuite utiliser une répartition aléatoire en suivant les proportions.
+
+Pronostic et résultats attendus :
+Nous pensons que le problème de reconnaissance des émotions humaines à l'aide de l'apprentissage en profondeur n'est pas trop complexe car il existe un grand nombre d'images pour constituer un bon dataset. Toutefois, nous devons faire attention au surapprentissage. Nous espérons obtenir un modèle de deeplearning précis et fiable pour reconnaître les émotions humaines à partir d'images.
+
+Script de chargement de données :
+Le script de chargement de données pour notre projet est disponible dans le repo Github de notre projet.
+
+Classes de notre base de données :
+Notre base de données contient des images annotées classées selon cinq émotions différentes : la colère, la peur, la joie, la tristesse et la surprise.
+
+Conclusion :
+?
