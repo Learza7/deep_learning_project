@@ -1,7 +1,13 @@
+import argparse
 import os
 from PIL import Image
 
-directory = 'emotion_images/train/happy' # Entrez le chemin absolu du dossier contenant les images
+parser = argparse.ArgumentParser()
+parser.add_argument('dossier', type=str, help='Entrez le nom du dossier où enregistrer les images : test, train, validation')
+parser.add_argument('emotion', type=str, help='Entrez une émotion : angry, fearful, happy, sad, surprised')
+args = parser.parse_args()
+
+directory = 'emotion_images/' + args.dossier + '/' + args.emotion # Entrez le chemin absolu du dossier contenant les images
 
 threshold = 50 # Seuil de différence entre deux images en niveaux de gris, à partir duquel les images sont considérées comme différentes
 
