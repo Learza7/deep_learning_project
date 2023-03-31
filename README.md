@@ -1,5 +1,7 @@
 # deep_learning_project : Emotion classifier
 
+https://colab.research.google.com/drive/1XVSWpFjXtUIIfTNIcrgTaLtLFCUhX5rb?usp=sharing
+
 ### Constituer la base de données et poster un rapport avant le 28/03 23h59
 
 1. Trouver des images. (équilibrer les classes).
