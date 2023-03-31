@@ -22,6 +22,6 @@ def crop_square(current_image):
         return current_image.crop((0, delta, w, h - delta))
 
 if __name__ == "__main__":
-    input_dir = 'emotion_images/train/angry_no_processed'
-    output_dir = 'emotion_images/train/angry'
+    input_dir = 'emotion_images/sad_no_processed'
+    output_dir = 'emotion_images/sad_processed'
     resize_images(input_dir, output_dir, 128)
