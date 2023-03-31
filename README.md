@@ -2,25 +2,19 @@
 
 https://colab.research.google.com/drive/1XVSWpFjXtUIIfTNIcrgTaLtLFCUhX5rb?usp=sharing
 
-### Constituer la base de données et poster un rapport avant le 28/03 23h59
 
-1. Trouver des images. (équilibrer les classes).
-2. Eliminez les doublons.
-3. Annotez les images (associez une classe à chaque image).
-4. Répartissez vos données en ensembles d’entrainement, de validation
-et de test.
-5. Chargez-les sur un dépot pour y accéder facilement depuis Google Colab.
-6 Préparez un script de chargement de ces données en python (cf. exemple fourni sur Moodle).
-
-Contenu du rapport :
-1. Composition du groupe, titre du projet, lien vers votre base de données.
-2. Description illustrée du sujet choisi.
-3. Description de votre méthodologie pour acquérir, puis annoter les données.
-4. Description de votre méthodologie pour partitionner les images en ensembles d’entrainement, de validation et de test.
-5. Votre pronostic : votre problème est-il simple ou compliqué ? Quels résultats obtiendrez-vous d’après vous ?
-6. Script de chargement de vos données.
-7. Et bien sûr des images de votre BD !
-
-Au moins 1000 images, annotées.
--> définir les classes : heureux, triste, apeuré, etc...
+Rapport final
+Analysez vos r ́esultats
+Lorsque vous aurez  ́etabli ce que vous pensez ˆetre une solution
+satisfaisante, vous devrez  ́ecrire un rapport d’analyse d ́etaill ́ee des
+r ́esultats qui comprendra :
+Une analyse quantitative
+▶ Pr ́ecision globale et par classe
+▶ Matrice de confusion
+Une analyse qualitative
+▶ Exemples positifs/n ́egatifs tir ́es de la base de test
+▶ Analyse des erreurs et r ́eflexion sur les pistes d’am ́elioration
+Cette phase est essentielle, et `a ne surtout pas n ́egliger.
+La note finale sera pour un tiers li ́ee `a votre base de donn ́ees, pour
+un tiers `a votre solution, et pour un tiers `a l’analyse de vos r ́esultats.
 
