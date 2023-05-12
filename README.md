@@ -20,9 +20,9 @@ https://colab.research.google.com/drive/1FscHGaCHvxMwlHKa5njH4lHSA4JJDmRy#scroll
 Cette phase est essentielle, et à ne surtout pas négliger.
 
 Le rapport final de projet inclura :
-    La première partie que vous avez déjà rédigée sur la constitution de votre base de données
-    Une seconde partie (5-7 pages) où vous décrirez de façon détaillée les différentes étapes que vous avez suivies pour résoudre votre problème, de votre résolution la plus simplifiée à la plus élaborée. Dans cette partie du projet, vous devez avoir à l'esprit pendant votre rédaction que je dois disposer de toutes les informations nécessaires pour reproduire votre travail (liste exhaustive d'hyperparamètres, description détaillée du ou des réseau.x, éventuelles simplifications de la base de données, etc.)
-    Une troisième partie ( 5-7 pages), où vous présentez une analyse détaillée de vos résultats. Cette analyse doit être quantitative (accuracy globale et par classe, matrice de confusion, etc.) mais aussi qualitative (je veux des exemples concrets, et une tentative d'explication, des échecs de votre réseau) et donc abondamment illustrée.
+    - La première partie que vous avez déjà rédigée sur la constitution de votre base de données
+    - Une seconde partie (5-7 pages) où vous décrirez de façon détaillée les différentes étapes que vous avez suivies pour résoudre votre problème, de votre résolution la plus simplifiée à la plus élaborée. Dans cette partie du projet, vous devez avoir à l'esprit pendant votre rédaction que je dois disposer de toutes les informations nécessaires pour reproduire votre travail (liste exhaustive d'hyperparamètres, description détaillée du ou des réseau.x, éventuelles simplifications de la base de données, etc.)
+    - Une troisième partie ( 5-7 pages), où vous présentez une analyse détaillée de vos résultats. Cette analyse doit être quantitative (accuracy globale et par classe, matrice de confusion, etc.) mais aussi qualitative (je veux des exemples concrets, et une tentative d'explication, des échecs de votre réseau) et donc abondamment illustrée.
 
 Enfin dans la conclusion, j'attends essentiellement un bilan de votre travail et des difficultés rencontrées, ainsi qu'une réflexion sur des perspectives d'amélioration que vous pourriez apporter (à la base de données ou au réseau par exemple).
 
